@@ -1,0 +1,103 @@
+.login-container {
+  
+  background-color: rgba(0, 0, 0, 0.466); 
+  background-size: cover;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 150px;
+    height: 500px;
+
+
+  }
+  body {
+    background-image: url('/src/Imagenes/Fondo.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+
+  
+  .logo {
+    width: 250px; 
+    margin-bottom: 1.5rem;
+    margin: 10px;
+    padding: 10px;
+    transition: transform 0.9s ease-out; 
+  }
+
+.logo:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s ease-in; 
+}
+  
+  
+ 
+.input {
+  width: 75%;
+  
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  font-size: 1rem;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+  
+ 
+  .login-button {
+    
+    width: 50%;
+    height: 70px;
+    padding: 10px;
+    margin: 50px;
+    border: none;
+    border-radius: 19px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.9s, transform 0.9s, transition ease-in 0.9s;
+   
+  }
+  
+  .login-button:hover {
+    background-color: rgb(185, 4, 4);
+    transition: ease-out 0.9s;
+    transform: scale(1.02);
+    
+  }
+  
+  .atras {
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.9s, transform 0.9s, transition ease-in 0.9s;
+    position: absolute; 
+    top: 160px; 
+    left: 670px; 
+    z-index: 1000;
+  }
+  
+  .atras:hover {
+    background-color: rgb(185, 4, 4);
+    transition: ease-out 0.9s;
+    transform: scale(1.02);
+  }
+  
